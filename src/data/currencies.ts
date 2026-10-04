@@ -1,0 +1,30 @@
+export type Currency = { code: string; name: string };
+
+// 25 major world currencies by trading volume/economic size with free historical FX coverage.
+export const CURRENCIES: Currency[] = [
+  { code: "USD", name: "US Dollar" },
+  { code: "EUR", name: "Euro" },
+  { code: "JPY", name: "Japanese Yen" },
+  { code: "GBP", name: "British Pound" },
+  { code: "CNY", name: "Chinese Yuan" },
+  { code: "AUD", name: "Australian Dollar" },
+  { code: "CAD", name: "Canadian Dollar" },
+  { code: "CHF", name: "Swiss Franc" },
+  { code: "HKD", name: "Hong Kong Dollar" },
+  { code: "SGD", name: "Singapore Dollar" },
+  { code: "SEK", name: "Swedish Krona" },
+  { code: "KRW", name: "South Korean Won" },
+  { code: "NOK", name: "Norwegian Krone" },
+  { code: "NZD", name: "New Zealand Dollar" },
+  { code: "INR", name: "Indian Rupee" },
+  { code: "MXN", name: "Mexican Peso" },
+  { code: "ZAR", name: "South African Rand" },
+  { code: "BRL", name: "Brazilian Real" },
+  { code: "DKK", name: "Danish Krone" },
+  { code: "PLN", name: "Polish Zloty" },
+  { code: "THB", name: "Thai Baht" },
+  { code: "ILS", name: "Israeli Shekel" },
+  { code: "IDR", name: "Indonesian Rupiah" },
+  { code: "CZK", name: "Czech Koruna" },
+  { code: "TRY", name: "Turkish Lira" },
+];
